@@ -96,7 +96,7 @@
       "resources": [
         {
           "type": "extensions",
-          "name": "[concat(parameters('adVMName'),'/InstallDomainController')]",
+          "name": "InstallDomainController",
           "apiVersion": "2017-03-30",
           "location": "[parameters('location')]",
           "dependsOn": [
