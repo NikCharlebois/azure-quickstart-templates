@@ -314,6 +314,19 @@
   },
   "resources": [
     {
+        "apiVersion": "2018-02-01",
+        "name": "pid-576feea1-0831-5217-b5d0-a9e79fe72f5b",
+        "type": "Microsoft.Resources/deployments",
+        "properties": {
+            "mode": "Incremental",
+            "template": {
+                "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+                "contentVersion": "1.0.0.0",
+                "resources": []
+            }
+        }
+    },
+    {
       "name": "SettingUpStorageAccount",
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2015-01-01",
