@@ -89,14 +89,14 @@
         "diagnosticsProfile": {
           "bootDiagnostics": {
             "enabled": true,
-            "storageUri": "[concat('http://',parameters('storageAccountNamePrefix'),'2.blob.core.windows.net')]"
+            "storageUri": "[concat('http://',parameters('storageAccountNamePrefix'),'2.blob.core.usgovcloudapi.net')]"
           }
         }
       },
       "resources": [
         {
           "type": "extensions",
-          "name": "[concat(parameters('adVMName'),'/InstallDomainController')]",
+          "name": "InstallDomainController",
           "apiVersion": "2017-03-30",
           "location": "[parameters('location')]",
           "dependsOn": [

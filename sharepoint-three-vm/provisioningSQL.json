@@ -63,8 +63,8 @@
     "storageProfile": {
       "imageReference": {
         "publisher": "MicrosoftSQLServer",
-        "offer": "SQL2016-WS2016",
-        "sku": "SQLDEV",
+        "offer": "SQL2014SP2-WS2012R2",
+        "sku": "standard",
         "version": "latest"
           },
           "osDisk": {
@@ -99,7 +99,7 @@
         "diagnosticsProfile": {
           "bootDiagnostics": {
             "enabled": true,
-            "storageUri": "[concat('http://',parameters('storageAccountNamePrefix'),'2.blob.core.windows.net')]"
+            "storageUri": "[concat('http://',parameters('storageAccountNamePrefix'),'2.blob.core.usgovcloudapi.net')]"
           }
         }
       }
